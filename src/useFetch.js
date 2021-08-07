@@ -10,25 +10,25 @@ const useFetch = (url) => {
 
     setTimeout(() => {
       fetch(url, { signal: abortCont.signal })
-        .then((res) => {
-          if (!res.ok) {
+        .then((response) => {
+          if (!response.ok) {
             // error coming back from server
             throw Error("could not fetch the data for that resource");
           }
-          return res.json();
+          return response.json();
         })
         .then((data) => {
           setIsPending(false);
           setData(data);
           setError(null);
         })
-        .catch((err) => {
-          if (err.name === "AbortError") {
+        .catch((error) => {
+          if (error.name === "AbortError") {
             console.log("fetch aborted");
           } else {
             // auto catches network / connection error
             setIsPending(false);
-            setError(err.message);
+            setError(error.message);
           }
         });
     }, 1000);
