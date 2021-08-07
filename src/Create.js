@@ -14,7 +14,7 @@ const Create = () => {
 
     setIsPending(true);
 
-    fetch("http://localhost:8000/blogs", {
+    fetch("http://Som11.github.io/Blogging", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(blog),

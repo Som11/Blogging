@@ -13,7 +13,7 @@ const Home = () => {
     data: blogs,
     isPending,
     error,
-  } = useFetch("http://localhost:8000/blogs");
+  } = useFetch("http://Som11.github.io/Blogging");
 
   return (
     <div className="home">
