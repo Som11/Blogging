@@ -7,11 +7,11 @@ const BlogDetails = () => {
     data: blog,
     error,
     isPending,
-  } = useFetch("http://Som11.github.io/Blogging" + id);
+  } = useFetch("https://som11.github.io/" + id);
   const history = useHistory();
 
   const handleClick = () => {
-    fetch("http://Som11.github.io/Blogging" + blog.id, {
+    fetch("https://som11.github.io/" + blog.id, {
       method: "DELETE",
     }).then(() => {
       history.push("/");
