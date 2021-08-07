@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "//reactandfirebase/static/css/main.ab17d993.chunk.css",
-    "main.js": "//reactandfirebase/static/js/main.597f33f3.chunk.js",
-    "main.js.map": "//reactandfirebase/static/js/main.597f33f3.chunk.js.map",
-    "runtime-main.js": "//reactandfirebase/static/js/runtime-main.44630da6.js",
-    "runtime-main.js.map": "//reactandfirebase/static/js/runtime-main.44630da6.js.map",
-    "static/js/2.539ab5f9.chunk.js": "//reactandfirebase/static/js/2.539ab5f9.chunk.js",
-    "static/js/2.539ab5f9.chunk.js.map": "//reactandfirebase/static/js/2.539ab5f9.chunk.js.map",
-    "index.html": "//reactandfirebase/index.html",
-    "static/css/main.ab17d993.chunk.css.map": "//reactandfirebase/static/css/main.ab17d993.chunk.css.map",
-    "static/js/2.539ab5f9.chunk.js.LICENSE.txt": "//reactandfirebase/static/js/2.539ab5f9.chunk.js.LICENSE.txt"
+    "main.css": "/Blogging/static/css/main.c60c2a0f.chunk.css",
+    "main.js": "/Blogging/static/js/main.dc62e2dc.chunk.js",
+    "main.js.map": "/Blogging/static/js/main.dc62e2dc.chunk.js.map",
+    "runtime-main.js": "/Blogging/static/js/runtime-main.32b4538c.js",
+    "runtime-main.js.map": "/Blogging/static/js/runtime-main.32b4538c.js.map",
+    "static/js/2.97aee597.chunk.js": "/Blogging/static/js/2.97aee597.chunk.js",
+    "static/js/2.97aee597.chunk.js.map": "/Blogging/static/js/2.97aee597.chunk.js.map",
+    "index.html": "/Blogging/index.html",
+    "static/css/main.c60c2a0f.chunk.css.map": "/Blogging/static/css/main.c60c2a0f.chunk.css.map",
+    "static/js/2.97aee597.chunk.js.LICENSE.txt": "/Blogging/static/js/2.97aee597.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.44630da6.js",
-    "static/js/2.539ab5f9.chunk.js",
-    "static/css/main.ab17d993.chunk.css",
-    "static/js/main.597f33f3.chunk.js"
+    "static/js/runtime-main.32b4538c.js",
+    "static/js/2.97aee597.chunk.js",
+    "static/css/main.c60c2a0f.chunk.css",
+    "static/js/main.dc62e2dc.chunk.js"
   ]
 }
